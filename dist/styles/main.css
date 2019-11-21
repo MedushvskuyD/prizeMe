@@ -1,14 +1,106 @@
-h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400; }
+* {
+  scroll-behavior: smooth;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
-@font-face {
-  font-family: "Roboto";
-  src: url("../fonts/Roboto-Regular-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+a {
+  text-decoration: none;
+  display: inline-block; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
 
 body {
-  background: #eee; }
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #000; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 130px; }
+
+.default-btn {
+  color: #fff;
+  background: #a70b0b;
+  -webkit-box-shadow: 0 0 15px #dd9e23;
+          box-shadow: 0 0 15px #dd9e23;
+  font-size: 22px;
+  line-height: 75px;
+  text-align: center; }
+
+.text-red {
+  color: #a70b0b; }
+
+.text-dark-yellow {
+  color: #dd9e28; }
+
+.header {
+  background: #663f04;
+  background-image: url(../images/ellipse-fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .header__inner {
+    position: relative;
+    min-height: 665px;
+    background-image: url(../images/header-fon.png);
+    background-repeat: no-repeat;
+    background-position: 550px bottom; }
+  .header__info {
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.3em;
+    padding: 5px 0 30px;
+    color: #fff;
+    opacity: 0.3; }
+  .header__title {
+    font-family: "Vollkorn", serif;
+    position: relative;
+    padding: 55px 0 50px;
+    max-width: 440px;
+    font-size: 40px;
+    line-height: 50px;
+    color: #fff; }
+    .header__title::before {
+      content: "";
+      position: absolute;
+      width: 435px;
+      height: 10px;
+      background-color: #dbab00;
+      bottom: 25px; }
+  .header__text {
+    max-width: 440px;
+    color: #fff;
+    padding-bottom: 45px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px; }
+  .header__btn {
+    max-width: 318px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 81px; }
+  .header__author {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 535px;
+    padding: 35px 235px 35px 40px;
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px; }
+  .header__image {
+    position: absolute;
+    right: 80px;
+    bottom: -30px; }
 
 /*# sourceMappingURL=main.css.map */
