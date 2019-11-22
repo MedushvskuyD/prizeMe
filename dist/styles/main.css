@@ -492,7 +492,7 @@ body {
     display: block;
     color: rgba(0, 0, 0, 0.5); }
     .blank__form-refusal .blank__form-checkbox-checkmark {
-      top: 10px; }
+      top: 10px !important; }
   .blank__form-refusal, .blank__form-agree {
     font-size: 18px;
     line-height: 23px;
