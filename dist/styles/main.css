@@ -32,13 +32,15 @@ body {
           box-shadow: 0 0 15px #dd9e23;
   font-size: 22px;
   line-height: 75px;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
 
 .text-red {
   color: #a70b0b; }
 
 .text-dark-yellow {
-  color: #dd9e28; }
+  color: #dd9e28;
+  font-weight: bold; }
 
 .header {
   background: #663f04;
@@ -51,39 +53,31 @@ body {
     min-height: 665px;
     background-image: url(../images/header-fon.png);
     background-repeat: no-repeat;
-    background-position: 550px bottom; }
+    background-position: 550px bottom;
+    color: #fff; }
   .header__info {
     font-size: 9px;
     line-height: 11px;
     letter-spacing: 0.3em;
     padding: 5px 0 30px;
-    color: #fff;
     opacity: 0.3; }
   .header__title {
     font-family: "Vollkorn", serif;
     position: relative;
-    padding: 55px 0 50px;
+    padding: 55px 0 15px;
+    margin-bottom: 20px;
     max-width: 440px;
     font-size: 40px;
     line-height: 50px;
-    color: #fff; }
-    .header__title::before {
-      content: "";
-      position: absolute;
-      width: 435px;
-      height: 10px;
-      background-color: #dbab00;
-      bottom: 25px; }
+    border-bottom: 10px solid #dbab00; }
   .header__text {
     max-width: 440px;
-    color: #fff;
     padding-bottom: 45px;
     font-weight: 500;
     font-size: 20px;
     line-height: 23px; }
   .header__btn {
     max-width: 318px;
-    width: 100%;
     font-size: 18px;
     line-height: 81px; }
   .header__author {
@@ -93,7 +87,6 @@ body {
     background: rgba(0, 0, 0, 0.5);
     max-width: 535px;
     padding: 35px 235px 35px 40px;
-    color: #fff;
     font-style: italic;
     font-weight: bold;
     font-size: 14px;
@@ -102,5 +95,449 @@ body {
     position: absolute;
     right: 80px;
     bottom: -30px; }
+
+.grats__inner {
+  position: relative; }
+
+.grats__title-box {
+  font-family: "Vollkorn", serif;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  font-weight: bold; }
+
+.grats__title-name {
+  padding-top: 25px;
+  width: 200px;
+  margin: 0 auto; }
+
+.grats__title-grats {
+  color: #a70b0b;
+  line-height: 42px;
+  padding-bottom: 60px;
+  position: relative; }
+  .grats__title-grats::before {
+    content: "";
+    position: absolute;
+    top: 65px;
+    left: 160px;
+    width: 600px;
+    height: 10px;
+    background-color: #dbab00; }
+
+.grats__branch {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: -30px;
+  left: 30px; }
+  .grats__branch1 {
+    margin-right: 390px; }
+
+.grats__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.grats__content-left {
+  max-width: 575px; }
+
+.grats__content-title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  padding-bottom: 20px; }
+
+.grats__content-text {
+  font-size: 17px;
+  line-height: 26px;
+  padding-bottom: 25px; }
+
+.grats__content-delivery {
+  background-color: rgba(242, 214, 116, 0.58);
+  padding: 20px 55px;
+  font-weight: 500;
+  margin-bottom: 25px; }
+
+.grats__content-right {
+  max-width: 275px;
+  width: 100%;
+  text-align: center; }
+
+.grats__dyploma {
+  padding: 120px 0 70px;
+  margin-bottom: 15px;
+  background-image: url(../images/dyploma.jpg);
+  background-size: cover;
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  color: #d90000;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.25); }
+
+.grats__additional {
+  margin-top: 50px; }
+
+.grats__delivery {
+  font-family: "Vollkorn", serif;
+  padding: 10px 65px;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 700;
+  text-align: center;
+  color: #a70b0b;
+  border: 10px solid #dbab12;
+  margin-bottom: 25px; }
+
+.client {
+  background: #663f04;
+  background-image: url(../images/ellipse-fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  .client__inner {
+    position: relative;
+    min-height: 650px;
+    background-image: url(../images/client-fon.png);
+    background-repeat: no-repeat;
+    background-position: 600px bottom;
+    padding-top: 45px;
+    padding-bottom: 150px;
+    color: #fff; }
+  .client__title-box {
+    font-family: "Vollkorn", serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 38px; }
+  .client__title-name {
+    line-height: 42px;
+    padding-bottom: 10px; }
+  .client__title-grats {
+    font-weight: 700;
+    color: #ffe484;
+    text-shadow: 0 0 50px #f1ce30;
+    max-width: 435px;
+    margin: 0 auto;
+    padding: 15px 0 35px;
+    border-bottom: 10px solid #dbab00;
+    margin-bottom: 50px; }
+  .client__text {
+    max-width: 410px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px; }
+
+.delivery__inner {
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 40px; }
+
+.delivery__title {
+  position: relative;
+  font-family: "Vollkorn", serif;
+  font-size: 40px;
+  line-height: 56px;
+  color: #030303;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 105px; }
+  .delivery__title::before {
+    content: "";
+    position: absolute;
+    top: 158px;
+    left: 165px;
+    width: 600px;
+    height: 10px;
+    background-color: #dbab00; }
+
+.delivery__branch {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: -30px;
+  left: 30px; }
+  .delivery__branch1 {
+    margin-right: 390px; }
+
+.delivery__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.delivery__content-title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 32px;
+  padding: 15px 0 30px; }
+
+.delivery__content-text {
+  font-size: 20px;
+  line-height: 26px;
+  max-width: 470px; }
+
+.delivery__content-right {
+  min-height: 300px;
+  max-width: 345px;
+  width: 100%;
+  background-image: url(../images/blank.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 35px 0 0 25px; }
+
+.delivery__delivery {
+  font-family: "Vollkorn", serif;
+  padding: 20px 130px;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 700;
+  text-align: center;
+  color: #a70b0b;
+  border: 10px solid #dbab12; }
+
+.instruction {
+  background-color: #663f04;
+  color: #fff;
+  background-image: url(../images/ellipse-fon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .instruction__inner {
+    padding-top: 50px;
+    padding-bottom: 55px; }
+  .instruction__title {
+    max-width: 890px;
+    margin: 0 auto 125px;
+    font-family: "Vollkorn", serif;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 10px solid #dbab00; }
+  .instruction__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-bottom: 45px; }
+  .instruction__item {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 205px; }
+    .instruction__item::after, .instruction__item::before {
+      content: "";
+      position: absolute;
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 100px; }
+    .instruction__item::after {
+      top: -65px;
+      left: 65px;
+      background-image: url(../images/list.png); }
+    .instruction__item:not(:first-child)::before {
+      background-image: url(../images/arrow.png);
+      top: -55px;
+      left: -80px; }
+    .instruction__item:nth-child(1)::before {
+      background-image: url(../images/arrow-down.png);
+      top: -65px;
+      left: 70px; }
+    .instruction__item:nth-child(1)::after {
+      width: 39px;
+      height: 3px;
+      background-color: #fff;
+      top: -23px;
+      left: 65px; }
+    .instruction__item:nth-child(3)::after {
+      background-image: url(../images/hand.png); }
+    .instruction__item:nth-child(4)::after {
+      background-image: url(../images/fura.png); }
+  .instruction__number {
+    color: #dbab00;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 38px;
+    padding-right: 5px; }
+  .instruction__item-text {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px; }
+  .instruction__text {
+    font-family: "Vollkorn", serif;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    padding: 0 75px 50px; }
+  .instruction__warning {
+    padding: 10px 85px 20px;
+    background-color: #f5e586;
+    border: 10px solid #dbab00;
+    font-family: "Vollkorn", serif;
+    color: #f00;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center; }
+
+.blank {
+  padding: 70px 0 20px; }
+  .blank__form {
+    -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    padding: 20px 25px;
+    margin-bottom: 35px; }
+  .blank__form-content {
+    border: 5px solid #dbab00;
+    padding: 25px 85px 45px; }
+  .blank__form-title {
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 46px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 25px; }
+  .blank__form-data {
+    font-size: 18px;
+    line-height: 23px;
+    padding: 0 0 40px 40px; }
+  .blank__form-text {
+    font-size: 18px;
+    line-height: 23px; }
+  .blank__form-radio {
+    padding-bottom: 10px; }
+  .blank__form-radio-label {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin: 20px 25px 0 0;
+    cursor: pointer;
+    font-size: 10px;
+    line-height: 13px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+    .blank__form-radio-label2 {
+      margin-left: 10px; }
+    .blank__form-radio-label input {
+      position: absolute;
+      opacity: 0;
+      height: 0;
+      width: 0; }
+  .blank__form-radio-checkmark {
+    position: absolute;
+    top: -4px;
+    left: 0;
+    height: 19px;
+    width: 19px;
+    border-radius: 50%;
+    border: 2px solid #e2c765; }
+  .blank input:checked ~ .blank__form-radio-checkmark {
+    background-image: url(../images/radio-checkmark.png);
+    background-repeat: no-repeat;
+    background-position: center; }
+  .blank__form-input {
+    font-size: 18px;
+    line-height: 23px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding-bottom: 15px; }
+    .blank__form-input input {
+      display: block;
+      width: 100%;
+      padding-left: 30px;
+      font-size: 14px;
+      line-height: 45px;
+      border: 2px solid #e2c765; }
+  .blank__form-day {
+    max-width: 275px; }
+    .blank__form-day input {
+      margin-top: 15px; }
+  .blank__form-phone {
+    max-width: 310px; }
+  .blank__form-delivery {
+    font-size: 18px;
+    line-height: 23px; }
+    .blank__form-delivery input {
+      display: block;
+      width: 100%;
+      font-size: 14px;
+      line-height: 45px;
+      border: 2px solid #e2c765;
+      margin-top: 7px;
+      padding-left: 30px;
+      margin-bottom: 25px; }
+  .blank__form-checkbox {
+    padding-left: 55px; }
+  .blank__form-refusal {
+    padding-bottom: 15px;
+    display: block;
+    color: rgba(0, 0, 0, 0.5); }
+    .blank__form-refusal .blank__form-checkbox-checkmark {
+      top: 10px; }
+  .blank__form-refusal, .blank__form-agree {
+    font-size: 18px;
+    line-height: 23px;
+    display: block;
+    position: relative;
+    cursor: pointer;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+    .blank__form-refusal input, .blank__form-agree input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0; }
+    .blank__form-refusal .blank__form-checkbox-checkmark, .blank__form-agree .blank__form-checkbox-checkmark {
+      position: absolute;
+      top: 0;
+      left: -55px;
+      height: 20px;
+      width: 20px;
+      border: 2px solid #e2c765; }
+    .blank__form-refusal input:checked ~ .blank__form-checkbox-checkmark, .blank__form-agree input:checked ~ .blank__form-checkbox-checkmark {
+      background-image: url(../images/checkbox-checkmark.png);
+      background-repeat: no-repeat;
+      background-position: center; }
+  .blank__content {
+    text-align: center; }
+  .blank__btn {
+    max-width: 275px;
+    margin-bottom: 40px; }
+  .blank__text {
+    font-family: "Vollkorn", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 56px;
+    padding-bottom: 40px; }
+  .blank__info {
+    text-align: left;
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.3em;
+    opacity: 0.3; }
+  .blank__info-text {
+    padding-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */
