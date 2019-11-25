@@ -273,11 +273,18 @@
 
       input {
         margin-top: 10px;
+        padding-left: 20px;
       }
     }
 
     &__hidden {
       display: none;
+    }
+
+    &__form-delivery {
+      textarea {
+        padding-left: 20px;
+      }
     }
 
     &__form-checkbox {
