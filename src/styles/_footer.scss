@@ -1,0 +1,10 @@
+.footer {
+  padding: 20px 0;
+
+  &__inner {
+    background-image: url(../images/prize.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+  }
+}

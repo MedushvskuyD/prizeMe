@@ -1,0 +1,131 @@
+.grats {
+  &__inner {
+    position: relative;
+  }
+
+  &__title-box {
+    font-family: "Vollkorn", serif;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  &__title-name {
+    padding-top: 25px;
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  &__title-grats {
+    color: #a70b0b;
+    line-height: 42px;
+    padding-bottom: 60px;
+    position: relative;
+  }
+
+  &__branch {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    top: -30px;
+    left: -10px;
+    padding: 0 130px;
+
+    &1 {
+      margin-left: -94px;
+      margin-right: -94px;
+    }
+
+    &2 {
+      margin-bottom: 71px;
+      max-width: 650px;
+      min-width: 0;
+    }
+
+    &3 {
+      margin-left: -94px;
+      margin-right: -94px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__content-left {
+    max-width: 575px;
+    margin-right: 20px;
+  }
+
+  &__content-title {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    padding-bottom: 20px;
+  }
+
+  &__content-text {
+    font-size: 17px;
+    line-height: 26px;
+    padding-bottom: 25px;
+  }
+
+  &__content-delivery {
+    background-color: rgba(242, 214, 116, 0.58);
+    padding: 20px 55px;
+    font-weight: 500;
+    margin-bottom: 25px;
+  }
+
+  &__content-right {
+    max-width: 275px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+
+  &__dyploma {
+    position: relative;
+    display: block;
+    min-height: 200px;
+  }
+
+  &__dyploma-img {
+    width: 276px;
+    height: 197px;
+  }
+
+  &__btn {
+    margin: 15px auto 20px;
+  }
+
+  &__additional-img {
+    width: 234px;
+    height: 158px;
+
+    &-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      visibility: hidden;
+    }
+  }
+
+  &__delivery {
+    font-family: "Vollkorn", serif;
+    padding: 10px 65px;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: #a70b0b;
+    border: 10px solid #dbab12;
+    margin-bottom: 25px;
+  }
+}

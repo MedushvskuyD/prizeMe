@@ -1,0 +1,47 @@
+.client {
+  background: #663f04;
+  background-image: url(../images/ellipse-fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &__inner {
+    position: relative;
+    min-height: 650px;
+    background-image: url(../images/client-fon.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-top: 45px;
+    padding-bottom: 150px;
+    color: #fff;
+  }
+  
+  &__title-box {
+    font-family: "Vollkorn", serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  &__title-name {
+    line-height: 42px;
+    padding-bottom: 10px;
+  }
+
+  &__title-grats {
+    font-weight: 700;
+    color: #ffe484;
+    text-shadow: 0 0 50px #f1ce30;
+    max-width: 435px;
+    margin: 0 auto 50px;
+    padding: 15px 0 35px;
+    border-bottom: 10px solid #dbab00;
+  }
+
+  &__text {
+    max-width: 410px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+  }
+}

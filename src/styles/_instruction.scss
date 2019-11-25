@@ -1,0 +1,113 @@
+.instruction {
+  background-color: #663f04;
+  color: #fff;
+  background-image: url(../images/ellipse-fon.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  &__inner {
+    padding-top: 50px;
+    padding-bottom: 55px;
+  }
+
+  &__title {
+    max-width: 890px;
+    margin: 0 auto 125px;
+    font-family: "Vollkorn", serif;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 10px solid #dbab00;
+  }
+
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 45px;
+  }
+
+  &__item {
+    position: relative;
+    display: flex;
+    max-width: 205px;
+
+    &::after,
+    &::before {
+      content: "";
+      position: absolute;
+      background-repeat: no-repeat;
+      width: 100px;
+      height: 100px;
+    }
+
+    &::after {
+      top: -65px;
+      left: 65px;
+      background-image: url(../images/list.png);
+    }
+
+    &:not(:first-child)::before {
+      background-image: url(../images/arrow.png);
+      top: -55px;
+      left: -80px;
+    }
+
+    &:nth-child(1)::before {
+      background-image: url(../images/arrow-down.png);
+      top: -65px;
+      left: 70px;
+    }
+
+    &:nth-child(1)::after {
+      width: 39px;
+      height: 3px;
+      background-color: #fff;
+      top: -23px;
+      left: 65px;
+    }
+
+    &:nth-child(3)::after {
+      background-image: url(../images/hand.png);
+    }
+
+    &:nth-child(4)::after {
+      background-image: url(../images/fura.png);
+    }
+  }
+
+  &__number {
+    color: #dbab00;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 38px;
+    padding-right: 5px;
+  }
+
+  &__item-text {
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &__text {
+    font-family: "Vollkorn", serif;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+    padding: 0 75px 50px;
+  }
+
+  &__warning {
+    padding: 10px 85px 20px;
+    background-color: #f5e586;
+    border: 10px solid #dbab00;
+    font-family: "Vollkorn", serif;
+    color: #f00;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    text-align: center;
+  }
+}

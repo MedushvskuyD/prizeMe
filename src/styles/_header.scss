@@ -1,0 +1,71 @@
+.header {
+  background: #663f04;
+  background-image: url(../images/ellipse-fon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &__inner {
+    position: relative;
+    min-height: 665px;
+    background-image: url(../images/header-fon.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    color: #fff;
+  }
+
+  &__info {
+    font-size: 9px;
+    line-height: 11px;
+    letter-spacing: 0.3em;
+    padding: 5px 0 30px;
+    opacity: 0.3;
+  }
+
+  &__title {
+    font-family: "Vollkorn", serif;
+    position: relative;
+    padding: 55px 0 15px;
+    margin-bottom: 20px;
+    max-width: 440px;
+    font-size: 40px;
+    line-height: 50px;
+    border-bottom: 10px solid #dbab00;
+  }
+
+  &__text {
+    max-width: 440px;
+    padding-bottom: 45px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  &__btn {
+    max-width: 318px;
+    font-size: 18px;
+    line-height: 81px;
+  }
+
+  &__author {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/signature.png);
+    background-repeat: no-repeat;
+    background-position: 80% 60%;
+    max-width: 535px;
+    padding: 35px 235px 35px 40px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  &__image {
+    position: absolute;
+    right: 80px;
+    bottom: -30px;
+  }
+}

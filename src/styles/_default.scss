@@ -1,0 +1,48 @@
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 130px;
+}
+
+.default-btn {
+  color: #fff;
+  background: #a70b0b;
+  box-shadow: 0 0 15px #dd9e23;
+  font-size: 22px;
+  line-height: 75px;
+  text-align: center;
+  width: 100%;
+}
+
+.text-red {
+  color: #a70b0b;
+}
+
+.text-dark-yellow {
+  color: #dd9e28;
+  font-weight: bold;
+}
+
+.jq-selectbox {
+  display: block;
+  background-color: #fff;
+
+  &__select {
+    max-width: 275px;
+    height: 49px;
+    padding: 5px 0 0 30px;
+    font-size: 14px;
+    border: 2px solid #e2c765;
+    margin-top: 15px;
+    background: none;
+    border-radius: 0;
+  }
+
+  &__select-text {
+    width: 100% !important;
+  }
+
+  &__trigger {
+    display: none;
+  }
+}
