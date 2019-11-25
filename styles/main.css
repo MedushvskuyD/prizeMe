@@ -743,9 +743,12 @@
   .blank__form-phone {
     margin: 10px 0; }
     .blank__form-phone input {
-      margin-top: 10px; }
+      margin-top: 10px;
+      padding-left: 20px; }
   .blank__hidden {
     display: none; }
+  .blank__form-delivery textarea {
+    padding-left: 20px; }
   .blank__form-checkbox {
     padding-left: 40px; }
     .blank__form-checkbox .blank__form-checkbox-checkmark {
